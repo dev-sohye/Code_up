@@ -10,3 +10,10 @@ for i in range(n):
 
 for i in range(1, 24):
     print (d[i], end=' ')
+
+a = int(input())
+n = list(map(int, input().split()))
+
+for i in range(1, 24):
+    b = n.count(i)
+    print (b, end=' ')
